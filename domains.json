@@ -5,7 +5,7 @@
   },
   {
     "Domain": "vkq.ru",
-    "IP_address": "91.195.240.135"
+    "IP_address": "52.50.65.32"
   },
   {
     "Domain": "vkq.net",
@@ -14,10 +14,6 @@
   {
     "Domain": "vkq.org",
     "IP_address": "184.168.131.241"
-  },
-  {
-    "Domain": "vkq.cn",
-    "IP_address": "170.33.9.230"
   },
   {
     "Domain": "vkq.it",
@@ -45,7 +41,7 @@
   },
   {
     "Domain": "vkw.org",
-    "IP_address": "88.214.207.96"
+    "IP_address": "103.224.182.228"
   },
   {
     "Domain": "vkw.cn",
@@ -65,7 +61,7 @@
   },
   {
     "Domain": "vke.com",
-    "IP_address": "45.79.19.196"
+    "IP_address": "45.33.20.235"
   },
   {
     "Domain": "vke.ru",
@@ -108,6 +104,10 @@
     "IP_address": "37.140.192.112"
   },
   {
+    "Domain": "vkr.net",
+    "IP_address": "52.20.84.62"
+  },
+  {
     "Domain": "vkr.org",
     "IP_address": "184.168.131.241"
   },
@@ -145,7 +145,7 @@
   },
   {
     "Domain": "vkt.org",
-    "IP_address": "72.14.178.174"
+    "IP_address": "45.33.20.235"
   },
   {
     "Domain": "vkt.info",
@@ -153,22 +153,6 @@
   },
   {
     "Domain": "vkt.es",
-    "IP_address": "52.58.78.16"
-  },
-  {
-    "Domain": "vkt.pl",
-    "IP_address": "172.67.168.233"
-  },
-  {
-    "Domain": "vkt.it",
-    "IP_address": "64.190.62.111"
-  },
-  {
-    "Domain": "vkt.uk",
-    "IP_address": "213.171.212.244"
-  },
-  {
-    "Domain": "vkt.us",
     "IP_address": "52.58.78.16"
   },
   {
@@ -188,12 +172,12 @@
     "IP_address": "184.168.131.241"
   },
   {
-    "Domain": "vky.it",
-    "IP_address": "64.190.62.111"
+    "Domain": "vky.info",
+    "IP_address": "51.195.43.214"
   },
   {
-    "Domain": "vky.uk",
-    "IP_address": "13.248.216.40"
+    "Domain": "vky.it",
+    "IP_address": "64.190.62.111"
   },
   {
     "Domain": "vky.us",
@@ -201,11 +185,7 @@
   },
   {
     "Domain": "vku.com",
-    "IP_address": "45.33.30.197"
-  },
-  {
-    "Domain": "vku.ru",
-    "IP_address": "91.195.240.135"
+    "IP_address": "45.33.18.44"
   },
   {
     "Domain": "vku.net",
@@ -236,8 +216,16 @@
     "IP_address": "67.195.197.24"
   },
   {
+    "Domain": "vki.ru",
+    "IP_address": "52.50.65.32"
+  },
+  {
     "Domain": "vki.net",
     "IP_address": "52.128.23.153"
+  },
+  {
+    "Domain": "vki.org",
+    "IP_address": "45.33.23.183"
   },
   {
     "Domain": "vki.info",
@@ -261,15 +249,11 @@
   },
   {
     "Domain": "vki.us",
-    "IP_address": "104.21.14.27"
+    "IP_address": "172.67.157.168"
   },
   {
     "Domain": "vki.xyz",
     "IP_address": "199.59.242.153"
-  },
-  {
-    "Domain": "vko.com",
-    "IP_address": "54.159.98.68"
   },
   {
     "Domain": "vko.ru",
@@ -296,12 +280,20 @@
     "IP_address": "45.33.14.247"
   },
   {
+    "Domain": "vko.pl",
+    "IP_address": "185.253.212.22"
+  },
+  {
     "Domain": "vko.it",
     "IP_address": "64.190.62.111"
   },
   {
     "Domain": "vko.uk",
     "IP_address": "54.159.98.68"
+  },
+  {
+    "Domain": "vko.us",
+    "IP_address": "184.168.131.241"
   },
   {
     "Domain": "vkp.com",
@@ -321,19 +313,23 @@
   },
   {
     "Domain": "vkp.info",
-    "IP_address": "52.58.78.16"
+    "IP_address": "99.83.153.108"
   },
   {
     "Domain": "vkp.cn",
-    "IP_address": "104.160.174.171"
+    "IP_address": "64.32.28.238"
   },
   {
     "Domain": "vkp.it",
     "IP_address": "64.190.62.111"
   },
   {
+    "Domain": "vkp.uk",
+    "IP_address": "213.171.212.244"
+  },
+  {
     "Domain": "vkp.us",
-    "IP_address": "104.21.44.194"
+    "IP_address": "172.67.203.65"
   },
   {
     "Domain": "vkp.xyz",
@@ -354,6 +350,10 @@
   {
     "Domain": "vka.info",
     "IP_address": "23.94.22.110"
+  },
+  {
+    "Domain": "vka.cn",
+    "IP_address": "64.32.28.238"
   },
   {
     "Domain": "vka.pl",
@@ -398,10 +398,6 @@
   {
     "Domain": "vks.us",
     "IP_address": "18.144.64.165"
-  },
-  {
-    "Domain": "vks.xyz",
-    "IP_address": "64.190.62.111"
   },
   {
     "Domain": "vkd.com",
@@ -457,7 +453,11 @@
   },
   {
     "Domain": "vkf.org",
-    "IP_address": "72.14.185.43"
+    "IP_address": "209.99.40.222"
+  },
+  {
+    "Domain": "vkf.info",
+    "IP_address": "89.31.143.1"
   },
   {
     "Domain": "vkf.pl",
@@ -466,10 +466,6 @@
   {
     "Domain": "vkf.uk",
     "IP_address": "213.171.212.244"
-  },
-  {
-    "Domain": "vkg.com",
-    "IP_address": "185.24.50.169"
   },
   {
     "Domain": "vkg.ru",
@@ -489,7 +485,15 @@
   },
   {
     "Domain": "vkg.cn",
-    "IP_address": "104.160.174.171"
+    "IP_address": "64.32.28.238"
+  },
+  {
+    "Domain": "vkg.it",
+    "IP_address": "52.128.23.153"
+  },
+  {
+    "Domain": "vkg.uk",
+    "IP_address": "213.171.212.244"
   },
   {
     "Domain": "vkg.us",
@@ -532,10 +536,6 @@
     "IP_address": "18.144.64.165"
   },
   {
-    "Domain": "vkh.xyz",
-    "IP_address": "64.190.62.111"
-  },
-  {
     "Domain": "vkj.com",
     "IP_address": "52.58.78.16"
   },
@@ -557,11 +557,15 @@
   },
   {
     "Domain": "vkj.us",
-    "IP_address": "104.21.52.146"
+    "IP_address": "172.67.200.137"
   },
   {
     "Domain": "vkj.xyz",
     "IP_address": "64.190.62.111"
+  },
+  {
+    "Domain": "vkk.com",
+    "IP_address": "66.33.214.12"
   },
   {
     "Domain": "vkk.ru",
@@ -596,12 +600,12 @@
     "IP_address": "159.89.244.183"
   },
   {
-    "Domain": "vkl.com",
-    "IP_address": "35.186.238.101"
+    "Domain": "vkk.us",
+    "IP_address": "103.224.182.212"
   },
   {
-    "Domain": "vkl.ru",
-    "IP_address": "95.213.255.249"
+    "Domain": "vkl.net",
+    "IP_address": "192.185.15.233"
   },
   {
     "Domain": "vkl.org",
@@ -660,6 +664,10 @@
     "IP_address": "75.126.104.246"
   },
   {
+    "Domain": "vkz.xyz",
+    "IP_address": "64.190.62.111"
+  },
+  {
     "Domain": "vkx.com",
     "IP_address": "185.53.178.53"
   },
@@ -669,11 +677,7 @@
   },
   {
     "Domain": "vkx.net",
-    "IP_address": "95.130.17.35"
-  },
-  {
-    "Domain": "vkx.org",
-    "IP_address": "192.168.100.100"
+    "IP_address": "178.79.153.56"
   },
   {
     "Domain": "vkx.cn",
@@ -694,6 +698,14 @@
   {
     "Domain": "vkx.us",
     "IP_address": "52.58.78.16"
+  },
+  {
+    "Domain": "vkc.com",
+    "IP_address": "216.239.38.21"
+  },
+  {
+    "Domain": "vkc.ru",
+    "IP_address": "163.172.130.74"
   },
   {
     "Domain": "vkc.net",
@@ -729,7 +741,7 @@
   },
   {
     "Domain": "vkv.com",
-    "IP_address": "45.33.30.197"
+    "IP_address": "173.255.194.134"
   },
   {
     "Domain": "vkv.ru",
@@ -738,6 +750,10 @@
   {
     "Domain": "vkv.net",
     "IP_address": "52.20.84.62"
+  },
+  {
+    "Domain": "vkv.org",
+    "IP_address": "52.128.23.153"
   },
   {
     "Domain": "vkv.info",
@@ -761,15 +777,27 @@
   },
   {
     "Domain": "vkv.us",
-    "IP_address": "172.67.146.88"
+    "IP_address": "104.21.55.83"
+  },
+  {
+    "Domain": "vkv.xyz",
+    "IP_address": "211.99.103.26"
   },
   {
     "Domain": "vkb.ru",
-    "IP_address": "185.230.63.186"
+    "IP_address": "185.230.63.171"
+  },
+  {
+    "Domain": "vkb.net",
+    "IP_address": "52.128.23.153"
   },
   {
     "Domain": "vkb.org",
     "IP_address": "75.126.102.230"
+  },
+  {
+    "Domain": "vkb.info",
+    "IP_address": "91.195.240.135"
   },
   {
     "Domain": "vkb.pl",
@@ -816,12 +844,20 @@
     "IP_address": "206.119.87.76"
   },
   {
+    "Domain": "vkn.it",
+    "IP_address": "64.190.62.111"
+  },
+  {
+    "Domain": "vkn.uk",
+    "IP_address": "213.171.212.244"
+  },
+  {
     "Domain": "vkn.us",
     "IP_address": "52.58.78.16"
   },
   {
     "Domain": "vkn.xyz",
-    "IP_address": "104.21.4.25"
+    "IP_address": "172.67.131.146"
   },
   {
     "Domain": "vkm.ru",
@@ -844,20 +880,8 @@
     "IP_address": "199.59.242.153"
   },
   {
-    "Domain": "vkm.pl",
-    "IP_address": "176.122.212.50"
-  },
-  {
-    "Domain": "vkm.it",
-    "IP_address": "52.128.23.153"
-  },
-  {
-    "Domain": "vkm.uk",
-    "IP_address": "176.74.21.35"
-  },
-  {
     "Domain": "vkm.us",
-    "IP_address": "52.5.93.6"
+    "IP_address": "76.223.88.78"
   },
   {
     "Domain": "vkm.xyz",
@@ -873,11 +897,19 @@
   },
   {
     "Domain": "vk1.cn",
-    "IP_address": "103.79.179.228"
+    "IP_address": "47.91.170.222"
+  },
+  {
+    "Domain": "vk1.top",
+    "IP_address": "103.229.125.87"
   },
   {
     "Domain": "vk1.it",
     "IP_address": "34.90.44.14"
+  },
+  {
+    "Domain": "vk1.top",
+    "IP_address": "91.204.226.209"
   },
   {
     "Domain": "vk2.com",
@@ -900,8 +932,16 @@
     "IP_address": "122.10.82.133"
   },
   {
+    "Domain": "vk2.top",
+    "IP_address": "91.204.226.254"
+  },
+  {
     "Domain": "vk2.us",
     "IP_address": "203.26.211.10"
+  },
+  {
+    "Domain": "vk2.top",
+    "IP_address": "103.229.127.215"
   },
   {
     "Domain": "vk3.com",
@@ -928,12 +968,16 @@
     "IP_address": "217.160.0.94"
   },
   {
-    "Domain": "vk3.us",
-    "IP_address": "170.178.168.203"
+    "Domain": "vk3.top",
+    "IP_address": "185.216.116.235"
   },
   {
-    "Domain": "vk4.com",
-    "IP_address": "184.168.131.241"
+    "Domain": "vk3.us",
+    "IP_address": "103.224.212.221"
+  },
+  {
+    "Domain": "vk3.top",
+    "IP_address": "43.251.17.189"
   },
   {
     "Domain": "vk4.ru",
@@ -945,7 +989,11 @@
   },
   {
     "Domain": "vk4.cn",
-    "IP_address": "103.139.0.9"
+    "IP_address": "23.225.102.6"
+  },
+  {
+    "Domain": "vk4.xyz",
+    "IP_address": "209.141.38.71"
   },
   {
     "Domain": "vk5.com",
@@ -957,7 +1005,7 @@
   },
   {
     "Domain": "vk5.net",
-    "IP_address": "104.21.72.35"
+    "IP_address": "172.67.174.106"
   },
   {
     "Domain": "vk5.cn",
@@ -976,6 +1024,14 @@
     "IP_address": "91.195.240.135"
   },
   {
+    "Domain": "vk6.net",
+    "IP_address": "216.239.32.21"
+  },
+  {
+    "Domain": "vk6.org",
+    "IP_address": "64.37.52.84"
+  },
+  {
     "Domain": "vk6.top",
     "IP_address": "47.240.54.204"
   },
@@ -988,20 +1044,8 @@
     "IP_address": "43.248.189.143"
   },
   {
-    "Domain": "vk7.ru",
-    "IP_address": "188.235.136.66"
-  },
-  {
-    "Domain": "vk7.net",
-    "IP_address": "61.145.119.66"
-  },
-  {
     "Domain": "vk7.org",
     "IP_address": "18.194.34.96"
-  },
-  {
-    "Domain": "vk7.cn",
-    "IP_address": "211.157.191.164"
   },
   {
     "Domain": "vk7.top",
@@ -1072,8 +1116,8 @@
     "IP_address": "121.41.101.49"
   },
   {
-    "Domain": "vk0.top",
-    "IP_address": "8.210.146.129"
+    "Domain": "vk0.xyz",
+    "IP_address": "5.187.2.111"
   },
   {
     "Domain": "vk0.top",
@@ -1092,6 +1136,10 @@
     "IP_address": "103.139.0.9"
   },
   {
+    "Domain": "k.pl",
+    "IP_address": "185.49.31.25"
+  },
+  {
     "Domain": "k.uk",
     "IP_address": "138.68.116.54"
   },
@@ -1102,10 +1150,6 @@
   {
     "Domain": "k.win",
     "IP_address": "103.139.0.9"
-  },
-  {
-    "Domain": "v.org",
-    "IP_address": "104.21.56.28"
   },
   {
     "Domain": "v.au",
@@ -1125,7 +1169,7 @@
   },
   {
     "Domain": "vk.com",
-    "IP_address": "87.240.190.67"
+    "IP_address": "93.186.225.208"
   },
   {
     "Domain": "vk.ru",
@@ -1153,6 +1197,6 @@
   },
   {
     "Domain": "vk.site",
-    "IP_address": "190.2.139.106"
+    "IP_address": "190.2.139.120"
   }
 ]

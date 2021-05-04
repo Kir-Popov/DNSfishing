@@ -14,51 +14,51 @@ class DnsFishing:
         self._DOMAIN_ZONES = ['com', 'ru', 'net', 'org', 'info', 'cn', 'es', 'top', 'au', 'pl', 'it', 'uk', 'tk', 'ml',
                               'ga', 'cf', 'us', 'xyz', 'top', 'site', 'win', 'bid']
 
-    def __adding_domain_zone(self, domain):
+    def _adding_domain_zone(self, domain):
         new_domains = []
         for zone in self._DOMAIN_ZONES:
             new_domain = domain + '.' + zone
             new_domains.append(new_domain)
         return new_domains
 
-    def __adding_end_symbol(self, domain):
+    def _adding_end_symbol(self, domain):
         possible_symbols = 'qwertyuiopasdfghjklzxcvbnm1234567890'
         new_domains = []
         for char in possible_symbols:
             new_domain = domain + char
-            new_domains.extend(self.__adding_domain_zone(new_domain))
+            new_domains.extend(self._adding_domain_zone(new_domain))
         self._possible_domains.extend(new_domains)
 
-    def __homoglyphs_domains(self, domain):
+    def _homoglyphs_domains(self, domain):
         homoglyphs = hg.Homoglyphs(languages={'en'}, strategy=hg.STRATEGY_LOAD)
         possible_domains = homoglyphs.to_ascii(domain)
         new_domains = []
         for new_domain in possible_domains:
-            new_domains.extend(self.__adding_domain_zone(new_domain))
+            new_domains.extend(self._adding_domain_zone(new_domain))
         self._possible_domains.extend(new_domains)
 
-    def __sub_domains(self, domain):
+    def _sub_domains(self, domain):
         if len(domain) == 1:
             return
 
         new_domains = []
         for i in range(1, len(domain)):
             new_domain = domain[:i] + '.' + domain[i:]
-            new_domains.extend(self.__adding_domain_zone(new_domain))
+            new_domains.extend(self._adding_domain_zone(new_domain))
         self._possible_domains.extend(new_domains)
 
-    def __delete_symbol_domains(self, domain):
+    def _delete_symbol_domains(self, domain):
         if len(domain) == 1:
             return
 
         new_domains = []
         for i in range(len(domain)):
             new_domain = domain[:i] + domain[i + 1:]
-            new_domains.extend(self.__adding_domain_zone(new_domain))
+            new_domains.extend(self._adding_domain_zone(new_domain))
         self._possible_domains.extend(new_domains)
 
     @staticmethod
-    def __check_ip(domain):
+    def _check_ip(domain):
         try:
             ip = socket.gethostbyname(domain)
             print(domain, ip)
@@ -69,17 +69,17 @@ class DnsFishing:
 
     def work(self):
         for keyword in self.__keywords:      # Generating possible domains
-            self.__adding_end_symbol(keyword)
-            self.__sub_domains(keyword)
-            self.__delete_symbol_domains(keyword)
-            self.__homoglyphs_domains(keyword)
+            self._adding_end_symbol(keyword)
+            self._sub_domains(keyword)
+            self._delete_symbol_domains(keyword)
+            self._homoglyphs_domains(keyword)
 
         start_time = time.time()
         print(f"Generated {len(self._possible_domains)} domains")
 
         jobs = []
         for domain in self._possible_domains:
-            jobs.append(gevent.spawn(self.__check_ip, domain))
+            jobs.append(gevent.spawn(self._check_ip, domain))
         _ = gevent.joinall(jobs)
 
         # Clean jobs from None
