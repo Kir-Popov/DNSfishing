@@ -10,7 +10,7 @@ class DnsFishing:
     def __init__(self, keywords):
         self.__keywords = keywords
         self._possible_domains = []
-        self.existing_domains = []
+        self.existing_domains = set()
         self._DOMAIN_ZONES = ['com', 'ru', 'net', 'org', 'info', 'cn', 'es', 'top', 'au', 'pl', 'it', 'uk', 'tk', 'ml',
                               'ga', 'cf', 'us', 'xyz', 'top', 'site', 'win', 'bid']
 
@@ -85,7 +85,7 @@ class DnsFishing:
         # Clean jobs from None
         for job in jobs:
             if job.value is not None:
-                self.existing_domains.append(job.value)
+                self.existing_domains.add(job.value)
 
         print("\n%s seconds -" % (time.time() - start_time), 'Work time')
         print("%s seconds -" % ((time.time() - start_time) / len(self._possible_domains)), 'Average time per domain')
